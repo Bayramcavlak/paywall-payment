@@ -2,6 +2,11 @@
   "name": "paywall/payment",
   "description": "Payment Service",
   "type": "library",
+  "license": "MIT",
+  "keywords": [
+    "payment",
+    "paywall"
+  ],
   "autoload": {
     "psr-4": {
       "Paywall\\Payment\\": "src/"
@@ -15,7 +20,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "php": ">=7.0.0",
-    "guzzlehttp/guzzle": "^7.0.1"
+    "php": ">=8.0.0",
+    "guzzlehttp/guzzle": "^6.3"
   }
 }
