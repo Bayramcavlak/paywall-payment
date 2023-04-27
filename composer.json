@@ -13,6 +13,6 @@
             "Paywall\\Payment\\": "src/"
         }
     },
-    "prefer-stable": false
+   "minimum-stability": "beta"
     
 }
