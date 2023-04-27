@@ -2,9 +2,17 @@
     "name": "paywall/payment",
     "description": "Payment service",
     "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bayram Cavlak",
+            "email": "bcavlak@gmail.com"
+        }],
     "autoload": {
         "psr-4": {
             "Paywall\\Payment\\": "src/"
         }
-    }
+    },
+    "prefer-stable": false
+    
 }
